@@ -1,0 +1,149 @@
+/*---------------
+ Mobile vs Ipad
+ ------------------ */
+
+
+
+@media (max-width:1050px){
+
+    .mainview__hire--percents.d-flex.align-items-center.justify-content-between.col-lg-6 {
+        max-width: 94%;
+    }
+    body .mainview__candidates--header-position, body .mainview__candidates--header-more {
+        max-width: 48%;
+        margin-top:20px;
+    }
+    body .mainview__candidate {
+        padding: 20px 0;
+        max-width: 45%;
+    }
+    .nameadmin.d-flex.justify-content-center.align-items-center {
+        flex-direction: column;
+        text-align: center;
+    }
+    .mainview__candidate--content{
+        display: none;
+    }
+    .nameadmin__infor h3 {
+        display: none;
+    }
+    .nameadmin__infor {
+        margin-left: 0;
+    }
+    .timeview {
+        width: 100%;
+        padding: 45px 20px;
+    }
+    .timeview__list--detail.d-flex.justify-content-between.align-items-center {
+        flex-direction: column;
+        text-align: center;
+    }
+    .timeview__list--detail-time1 {
+        border-bottom: 4px solid #ff8e01;
+        border-right:none;
+    }
+    .timeview__list--detail-time2 {
+        border-bottom: 4px solid #5309f4;
+        border-right:none;
+    }
+    .timeview__list--detail-time3{
+        border-bottom: 4px solid #01bea0;
+        border-right:none;
+    }
+    li.navbar-li{
+        justify-content: center;
+    }
+    li.navbar-li a {
+        
+        display: none;
+    }
+    .navbar__lists--title {
+        text-align: center;
+    }
+    .mainview__candidate--hearder-more {
+        
+        right: 10px;
+    }
+    .navbar__logo.d-flex.align-items-center {
+        justify-content: center;
+    }
+    li.navbar-li {
+        padding: 20px 20px;
+    }
+    .navbar__lists--title {
+        margin-bottom: 20px;
+    }
+    .pageview.pageview2{
+    }
+    .timeview.timeview2 {
+        display: none;
+    }
+    .mainview {
+        width: 100%;
+    }
+    .maiview2__main--portfolio-img img {
+        width: 100%;
+    }
+    .mainview2__main {
+        padding: 30px;
+        width: 100%;
+    }
+    .mainview2__mores {
+        width: 100%;
+    }
+    .mainview2__more.col-lg-6.col-md-12 {
+        max-width: 100%;
+        width: 100%;
+        margin-top: 50px;
+    }
+    body .mainview2__mores .container .row.d-flex.justify-content-between.align-items-center {
+        flex-direction: column;
+    }
+    .mainview2__mores {
+        margin-bottom: 50px;
+    }
+    .mainview.maiview2.d-flex.flex-column {
+        padding: 15px;
+    }
+    .mainview2__more.col-lg-6.col-md-12 {
+        margin-top: 30px;
+    }
+    .mainview2__more--icon {
+        width: 100%;
+    }
+    body .mainview__candidate {
+        max-width: 47%;
+        flex: 0 0 50%;
+    }
+    .mainview__hire--percents.d-flex.align-items-center.justify-content-between.col-lg-6 {
+        max-width: 97%;
+        flex: 0 0 100%;
+    }
+}
+
+
+
+/*-------------
+      Ipad     
+--------------*/
+
+
+@media(min-width:740px) and (max-width:1023px){
+
+
+   
+
+}
+
+
+/*-------------
+    Mobile     
+--------------*/
+
+@media (max-width:739px){
+
+
+    
+}
+
+

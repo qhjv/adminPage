@@ -1,0 +1,690 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--main css-->
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="./css/reponsive.css">
+        <!--bootstrap css-->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <!--font css-->
+        <link rel="stylesheet" href="./css/fonts.css">
+        <!--fontawesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>Document</title>
+    </head>
+<body>
+    <section class="fullview d-flex justify-content-center align-items-center">
+       <div class="adminview d-flex  ">
+          <div class="navbar d-flex flex-column">
+              <div class="navbar__logo d-flex align-items-center">
+                  <img src="./img/logo.png">
+              </div>
+              <div class="navbar__lists">
+                  <div class="navbar__lists--tool">
+                      <div class="navbar__lists--title">
+                          <h4>Tools</h4>
+                      </div>
+                      <div class="navbar__list">
+                        <ul class="nav navbar-nav">
+                            <li class="navbar-li active">
+                                <i class="fas fa-border-all"></i>
+                                <a class="navbar-a active" href="#">Dashboard</a>
+                            </li>
+                            <li class="navbar-li">
+                                <i class="fab fa-buffer"></i>
+                                <a class="navbar-a" href="#">Offers</a>
+                            </li>
+                            <li class="navbar-li">
+                                <i class="fas fa-user"></i>
+                                <a class="navbar-a" href="#">People</a>
+                            </li>
+                            <li class="navbar-li" > 
+                                <i class="fas fa-chart-bar"></i>
+                                <a class="navbar-a" href="#">Statistics</a>
+                            </li>
+                            <li class="navbar-li">
+                                <i class="fas fa-file-alt"></i>
+                                <a class="navbar-a" href="#">Documents</a>
+                            </li>
+                          </ul>
+                      </div>
+                  </div>
+                  <div class="navbar__list--other">
+                    <div class="navbar__lists--title">
+                          <h4>Other</h4>
+                    </div>
+                    <div class="navbar__list">
+                      <ul class="nav navbar-nav">
+                            <li class="navbar-li">
+                                <i class="fas fa-comment-alt"></i>
+                                <a class="navbar-a" href="#">Chat</a>
+                                <div class="number__chat">5</div>
+                            </li>
+                            <li class="navbar-li">
+                                <i class="fas fa-exclamation-circle"></i>
+                                <a class="navbar-a" href="#">Support</a>
+                            </li>
+                            <li class="navbar-li">
+                                <i class="far fa-calendar-alt"></i>
+                                <a class="navbar-a" href="#">Calendar</a>
+                            </li>
+                        </ul>
+                    </div>
+                  </div>
+              </div>
+              <div class="nameadmin d-flex justify-content-center align-items-center">
+                  <div class="nameadmin__img">
+                      <img src="./img/admin-img.png" alt="">
+                  </div>
+                  <div class="nameadmin__infor">
+                      <h3>Mr. Quang Huy</h3>
+                      <small>Admin</small>
+                  </div>
+              </div>
+          </div>
+          <div class="pageview pageview1 pageon ">
+                  <div class="mainview mainview2 d-flex flex-column ">
+              
+                      <div class="container">
+                          <div class="row">
+                              <div class="mainview__hire">
+                                  <div class="mainview__hire--header d-flex justify-content-between align-items-center">
+                                      <div class="mainview__hire--header-title">
+                                          <h3>You need to hire</h3>
+                                      </div>
+                                      <div class="mainview__hire--header-button">
+                                          View all
+                                          <i class="fas fa-long-arrow-alt-right"></i>
+                                      </div>
+                                  </div>
+                                  <div class="mainview__hire--percents">
+                                      <div class="container">
+                                          <div class="row">
+                                              <div class="mainview__hire--percents d-flex align-items-center justify-content-between col-lg-6 col-md-12">
+                                                  <div class="mainview__hire--percent-number">
+                                                      <h3>2</h3>
+                                                  </div>
+                                                  <div class="mainview__hire--percent-tittle">
+                                                      <h4>Project manager</h4>
+                                                      <small>10 condidates</small>
+                                                  </div>
+                                                  <div class="mainview__hire--percent-circle mainview__hire--percent-circle1">
+                                                    <svg>
+                                                        <circle class="circle1" cx="18" cy="18" r="18"></circle>
+                                                        <circle class="circle2" cx="18" cy="18" r="18"></circle>
+                                                    </svg>
+                                                    <div class="mainview__hire--percent-circle_number">
+                                                        <h2>75<span>%</span></h2>
+                                                    </div>
+                                                  </div>
+                                              </div>
+                                              <div class="mainview__hire--percents d-flex align-items-center justify-content-between col-lg-6 col-md-12">
+                                                <div class="mainview__hire--percent-number">
+                                                    <h3>3</h3>
+                                                </div>
+                                                <div class="mainview__hire--percent-tittle">
+                                                    <h4>Content manager</h4>
+                                                    <small>7 condidates</small>
+                                                </div>
+                                                <div class="mainview__hire--percent-circle mainview__hire--percent-circle2">
+                                                    <svg>
+                                                        <circle class="circle1" cx="18" cy="18" r="18"></circle>
+                                                        <circle class="circle2" cx="18" cy="18" r="18"></circle>
+                                                    </svg>
+                                                    <div class="mainview__hire--percent-circle_number">
+                                                        <h2>50<span>%</span></h2>
+                                                    </div>
+                                                </div>
+                                              </div>
+                                              <div class="mainview__hire--percents d-flex align-items-center justify-content-between col-lg-6 col-md-12">
+                                                <div class="mainview__hire--percent-number">
+                                                    <h3>1</h3>
+                                                </div>
+                                                <div class="mainview__hire--percent-tittle">
+                                                    <h4>Senior UI/UX Designer</h4>
+                                                    <small>3 condidates</small>
+                                                </div>
+                                                <div class="mainview__hire--percent-circle mainview__hire--percent-circle3">
+                                                    <svg>
+                                                        <circle class="circle1" cx="18" cy="18" r="18"></circle>
+                                                        <circle class="circle2" cx="18" cy="18" r="18"></circle>
+                                                    </svg>
+                                                    <div class="mainview__hire--percent-circle_number">
+                                                        <h2>0<span>%</span></h2>
+                                                    </div>
+                                                </div>
+                                              </div>
+                                              <div class="mainview__hire--percents d-flex align-items-center justify-content-between col-lg-6 col-md-12">
+                                                <div class="mainview__hire--percent-number">
+                                                    <h3>8</h3>
+                                                </div>
+                                                <div class="mainview__hire--percent-tittle">
+                                                    <h4>JavaScript Developer</h4>
+                                                    <small>21 condidates</small>
+                                                </div>
+                                                <div class="mainview__hire--percent-circle mainview__hire--percent-circle4">
+                                                      <svg>
+                                                          <circle class="circle1" cx="18" cy="18" r="18"></circle>
+                                                          <circle class="circle2" cx="18" cy="18" r="18"></circle>
+                                                      </svg>
+                                                      <div class="mainview__hire--percent-circle_number">
+                                                          <h2>65<span>%</span></h2>
+                                                      </div>
+                                                </div>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                              <div class="mainview__candidates">
+                              <div class="mainview__candidates--header">
+                                  <div class="mainview__candidates--header-title">
+                                      <h3>83 Candidates</h3>
+                                  </div>
+                                  <div class="container">
+                                      <div class="row d-flex align-items-center justify-content-between">
+                                          <div class="mainview__candidates--header-search col-lg-6 col-md-12">
+                                            <i class="fas fa-search"></i>
+                                            <input type="text" class="form-control" placeholder="        Search">
+                                          </div>
+                                          <div class="mainview__candidates--header-position d-flex align-items-center justify-content-between col-lg-3 col-md-6 ">
+                                              <small>Position</small>
+                                              <i class="fas fa-user-friends"></i>
+                                          </div>
+                                          <div class="mainview__candidates--header-more d-flex align-items-center justify-content-between col-lg-3 col-md-6 ">
+                                            <small>More</small>
+                                            <i class="fas fa-cog"></i>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                              <div class="mainview__candidates--main">
+                                  <div class="container">
+                                      <div class="row d-flex justify-content-between align-items-center">
+                                          <div class="mainview__candidate d-flex flex-column justify-content-center align-items-center text-center col-lg-4 col-md-6">
+                                              <div class="mainview__candidate--hearder">
+                                                  <div class="mainview__candidate--hearder-img mainview__candidate--hearder-img1">
+                                                      <img src="./img/people1.png" alt="">
+                                                  </div>
+                                                  <div class="mainview__candidate--hearder-more">
+                                                    <i class="fas fa-ellipsis-v"></i>
+                                                  </div>
+                                              </div>
+                                              <div class="mainview__candidate--content">
+                                                <h4>Elmer Cobb</h4>
+                                                <small>.Net developer</small>
+                                              </div>
+                                              <div class="mainview__candidate--icon">
+                                                <i class="active fas fa-heart"></i>
+                                                <i class="far fa-calendar-alt"></i>
+                                                <i class="fas fa-comment-alt"></i>
+                                              </div>
+                                          </div>
+                                          <div class="mainview__candidate d-flex flex-column justify-content-center align-items-center text-center col-lg-4 col-md-6">
+
+                                              <div class="mainview__candidate--hearder">
+                                                  <div class="mainview__candidate--hearder-img mainview__candidate--hearder-img2">
+                                                      <img src="./img/people2.png" alt="">
+                                                  </div>
+                                                  <div class="mainview__candidate--hearder-more">
+                                                    <i class="fas fa-ellipsis-v"></i>
+                                                  </div>
+                                              </div>
+                                              <div class="mainview__candidate--content">
+                                                <h4>Elmer Cobb</h4>
+                                                <small>.Net developer</small>
+                                              </div>
+                                              <div class="mainview__candidate--icon">
+                                                <i class="fas fa-heart"></i>
+                                                <i class="far fa-calendar-alt"></i>
+                                                <i class="fas fa-comment-alt"></i>
+                                              </div>
+                                          </div>
+                                          <div class="mainview__candidate d-flex flex-column justify-content-center align-items-center text-center col-lg-4 col-md-6">
+
+                                              <div class="mainview__candidate--hearder">
+                                                  <div class="mainview__candidate--hearder-img mainview__candidate--hearder-img3">
+                                                      <img src="./img/people3.png" alt="">
+                                                  </div>
+                                                  <div class="mainview__candidate--hearder-more">
+                                                    <i class="fas fa-ellipsis-v"></i>
+                                                  </div>
+                                              </div>
+                                              <div class="mainview__candidate--content">
+                                                <h4>Elmer Cobb</h4>
+                                                <small>.Net developer</small>
+                                              </div>
+                                              <div class="mainview__candidate--icon">
+                                                <i class="fas fa-heart"></i>
+                                                <i class="far fa-calendar-alt"></i>
+                                                <i class="fas fa-comment-alt"></i>
+                                              </div>
+                                          </div>
+                                          <div class="mainview__candidate d-flex flex-column justify-content-center align-items-center text-center col-lg-4 col-md-6">
+
+                                              <div class="mainview__candidate--hearder">
+                                                  <div class="mainview__candidate--hearder-img mainview__candidate--hearder-img4">
+                                                      <img src="./img/people4.png" alt="">
+                                                  </div>
+                                                  <div class="mainview__candidate--hearder-more">
+                                                    <i class="fas fa-ellipsis-v"></i>
+                                                  </div>
+                                              </div>
+                                              <div class="mainview__candidate--content">
+                                                <h4>Elmer Cobb</h4>
+                                                <small>.Net developer</small>
+                                              </div>
+                                              <div class="mainview__candidate--icon">
+                                                <i class="fas fa-heart"></i>
+                                                <i class="far fa-calendar-alt"></i>
+                                                <i class="fas fa-comment-alt"></i>
+                                              </div>
+                                          </div>
+                                          <div class="mainview__candidate d-flex flex-column justify-content-center align-items-center text-center col-lg-4 col-md-6">
+
+                                              <div class="mainview__candidate--hearder">
+                                                  <div class="mainview__candidate--hearder-img mainview__candidate--hearder-img5">
+                                                      <img src="./img/people5.png" alt="">
+                                                  </div>
+                                                  <div class="mainview__candidate--hearder-more">
+                                                    <i class="fas fa-ellipsis-v"></i>
+                                                  </div>
+                                              </div>
+                                              <div class="mainview__candidate--content">
+                                                <h4>Elmer Cobb</h4>
+                                                <small>.Net developer</small>
+                                              </div>
+                                              <div class="mainview__candidate--icon">
+                                                <i class="fas fa-heart"></i>
+                                                <i class="far fa-calendar-alt"></i>
+                                                <i class="fas fa-comment-alt"></i>
+                                              </div>
+                                          </div>
+                                          <div class="mainview__candidate d-flex flex-column justify-content-center align-items-center text-center col-lg-4 col-md-6">
+
+                                              <div class="mainview__candidate--hearder">
+                                                  <div class="mainview__candidate--hearder-img mainview__candidate--hearder-img6">
+                                                      <img src="./img/people6.png" alt="">
+                                                  </div>
+                                                  <div class="mainview__candidate--hearder-more">
+                                                    <i class="fas fa-ellipsis-v"></i>
+                                                  </div>
+                                              </div>
+                                              <div class="mainview__candidate--content">
+                                                <h4>Elmer Cobb</h4>
+                                                <small>.Net developer</small>
+                                              </div>
+                                              <div class="mainview__candidate--icon">
+                                                <i class="fas fa-heart"></i>
+                                                <i class="far fa-calendar-alt"></i>
+                                                <i class="fas fa-comment-alt"></i>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                      </div>
+                  </div>
+                  <div class="timeview">
+                      <div class="timeview__header d-flex justify-content-between align-items-center">
+                          <h3>Calendar</h3>
+                          <div class="timeview__header--icon d-flex justify-content-center align-items-center">
+                            <i class="far fa-calendar-alt"></i>
+                          </div>
+                      </div>
+                      <div class="timeview__lists">
+                          <div class="timeview__list">
+                            <div class="timeview__list--title d-flex justify-content-between align-items-center">
+                                <small>02 February</small>
+                                <i class="fas fa-ellipsis-v"></i>
+                            </div>
+                            <div class="timeview__list--details">
+                                <div class="timeview__list--detail d-flex justify-content-between align-items-center">
+                                    <div class="timeview__list--detail-time timeview__list--detail-time1">
+                                        <h3>09:00</h3>
+                                    </div>
+                                    <div class="timeview__list--detail-content">
+                                        <small>UX Designer</small>
+                                        <h5>Tech interview</h5>
+                                    </div>
+                                </div>
+                                <div class="timeview__list--detail d-flex justify-content-between align-items-center">
+                                    <div class="timeview__list--detail-time timeview__list--detail-time2">
+                                        <h3>10:00</h3>
+                                    </div>
+                                    <div class="timeview__list--detail-content">
+                                        <small>Node.js developer</small>
+                                        <h5>Resume review</h5>
+                                    </div>
+                                </div>
+                            </div>
+                          </div>
+                          <div class="timeview__list">
+                            <div class="timeview__list--title d-flex justify-content-between align-items-center">
+                                <small>11 February</small>
+                                <i class="fas fa-ellipsis-v"></i>
+                            </div>
+                            <div class="timeview__list--details">
+                                <div class="timeview__list--detail d-flex justify-content-between align-items-center">
+                                    <div class="timeview__list--detail-time timeview__list--detail-time1">
+                                        <h3>09:00</h3>
+                                    </div>
+                                    <div class="timeview__list--detail-content">
+                                        <small>QA Engineer</small>
+                                        <h5>Send test task</h5>
+                                    </div>
+                                </div>
+                                <div class="timeview__list--detail d-flex justify-content-between align-items-center">
+                                    <div class="timeview__list--detail-time timeview__list--detail-time2">
+                                        <h3>11:00</h3>
+                                    </div>
+                                    <div class="timeview__list--detail-content">
+                                        <small>Back-end Developer</small>
+                                        <h5>Meeting</h5>
+                                    </div>
+                                </div>
+                                <div class="timeview__list--detail d-flex justify-content-between align-items-center">
+                                    <div class="timeview__list--detail-time timeview__list--detail-time3">
+                                        <h3>13:00</h3>
+                                    </div>
+                                    <div class="timeview__list--detail-content">
+                                        <small>Front-end Developer</small>
+                                        <h5>Resume review</h5>
+                                    </div>
+                                </div>
+                            </div>
+                          </div>
+                          <div class="timeview__list">
+                            <div class="timeview__list--title d-flex justify-content-between align-items-center">
+                                <small>12 February</small>
+                                <i class="fas fa-ellipsis-v"></i>
+                            </div>
+                            <div class="timeview__list--details">
+                                <div class="timeview__list--detail d-flex justify-content-between align-items-center">
+                                    <div class="timeview__list--detail-time timeview__list--detail-time1">
+                                        <h3>08:30</h3>
+                                    </div>
+                                    <div class="timeview__list--detail-content">
+                                        <small>UI Designer</small>
+                                        <h5>Platform concept</h5>
+                                    </div>
+                                </div>
+                                <div class="timeview__list--detail d-flex justify-content-between align-items-center">
+                                    <div class="timeview__list--detail-time timeview__list--detail-time2">
+                                        <h3>10:00</h3>
+                                    </div>
+                                    <div class="timeview__list--detail-content">
+                                        <small>Marketing</small>
+                                        <h5>2 post for instagram</h5>
+                                    </div>
+                                </div>
+                            </div>
+                          </div>
+                      </div>
+                  </div>
+          </div>
+          
+          <div class="pageview pageview2"></div>
+          <div class="pageview pageview3">
+            <div class="mainview maiview2 d-flex flex-column">
+                <div class="mainview2__header d-flex justify-content-between align-items-center">
+                    <div class="mainview2__header--title">
+                        <h4>Candidate profile</h4>
+                    </div>
+                    <div class="mainview2__header--invite">Invite to Job</div>
+                </div>
+                <div class="mainview2__mains">
+                    <div class="container">
+                        <div class="row">
+                            <div class="mainview2__main">
+                                <div class="mainview2__main1">
+                                    <div class="mainview2__main--title">Portfolio</div>
+                                    <div class="maiview2__main--portfolios d-flex justify-content-between align-items-center">
+                                        <div class="maiview2__main--portfolio">
+                                            <div class="maiview2__main--portfolio-img maiview2__main--portfolio-img1">
+                                                <img src="./img/portfolio1.png" alt="">
+                                            </div>
+                                            <div class="maiview2__main--portfolio-title">
+                                                <p>Online marketplace for real estate agency</p>
+                                            </div>
+                                        </div>
+                                        <div class="maiview2__main--portfolio">
+                                            <div class="maiview2__main--portfolio-img maiview2__main--portfolio-img2">
+                                                <img src="./img/portfolio2.png" alt="">
+                                            </div>
+                                            <div class="maiview2__main--portfolio-title">
+                                                <p>Online marketplace for real estate agency</p>
+                                            </div>
+                                        </div>
+                                        <div class="maiview2__main--portfolio">
+                                            <div class="maiview2__main--portfolio-img maiview2__main--portfolio-img3">
+                                                <img src="./img/portfolio3.png" alt="">
+                                            </div>
+                                            <div class="maiview2__main--portfolio-title">
+                                                <p>Online marketplace for real estate agency</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="mainview2__main2">
+                                    <div class="mainview2__main--title">Skills</div>
+                                    <div class="mainview2__main--skills">
+                                    
+                                        <nav>
+                                            <ul>
+                                                <li>UI</li>
+                                                <li>UX</li>
+                                                <li>UX Research</li>
+                                                <li>Responsive Web Design</li>
+                                                <li>Mobile Design</li>
+                                                <li>Web UI</li>
+                                            </ul>
+                                            <ul>
+                                                <li>Wireframing</li>
+                                                <li>Branding</li>
+                                                <li>Usability Testing</li>
+                                                <li>UX Prototyping</li>
+                                                <li>UI Graphics</li>
+                                            </ul>
+                                        </nav>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mainview2__mores">
+                                <div class="container">
+                                    <div class="row d-flex justify-content-between align-items-center">
+                                        <div class="mainview2__more mainview2__more--recommendations col-lg-6 col-md-12">
+                                            <div class="mainview2__more--title">Recommendations</div>
+                                            <div class="mainview2__more--recommendation d-flex justify-content-between ">
+                                                <div class="mainview2__more--recommendation-img">
+                                                    <img src="./img/people2.png" alt="">
+                                                </div>
+                                                <div class="mainview2__more--recommendation-content">
+                                                    <h4>Leon Ward,CEO</h4>
+                                                    <small>It was so good to work with Jean.She's veru creative ...</small>
+                                                </div>
+                                            </div>
+                                            <div class="mainview2__more--recommendation d-flex justify-content-between ">
+                                                <div class="mainview2__more--recommendation-img">
+                                                    <img src="./img/people1.png" alt="">
+                                                </div>
+                                                <div class="mainview2__more--recommendation-content">
+                                                    <h4>Keith Scott, Project Manager</h4>
+                                                    <small>Jean is a super-talented individual with a constant eager ...</small>
+                                                </div>
+                                            </div>
+                                            <div class="mainview2__more--icon">
+                                                <div class="mainview__hire--header-button">
+                                                    View all
+                                                    <i class="fas fa-long-arrow-alt-right"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="mainview2__more mainview2__more--documents col-lg-6 col-md-12">
+                                            <div class="mainview2__more--title">Documents</div>
+                                            <div class="mainview2__more--document d-flex justify-content-around align-items-center">
+                                                <div class="mainview2__more--document-header">
+                                                    <i class="fas fa-file-alt"></i>
+                                                </div>
+                                                <div class="mainview2__more--document-content">
+                                                    <h4>Resume.pdf</h4>
+                                                    <small>1.26 MB</small>
+                                                </div>
+                                                <div class="mainview2__more--document-icon">
+                                                    <i class="fas fa-cloud-download-alt"></i>
+                                                </div>
+                                            </div>
+                                            <div class="mainview2__more--document d-flex justify-content-around align-items-center">
+                                                <div class="mainview2__more--document-header">
+                                                    <i class="fas fa-file-alt"></i>
+                                                </div>
+                                                <div class="mainview2__more--document-content">
+                                                    <h4>Resume.pdf</h4>
+                                                    <small>1.26 MB</small>
+                                                </div>
+                                                <div class="mainview2__more--document-icon">
+                                                    <i class="fas fa-cloud-download-alt"></i>
+                                                </div>
+                                            </div>
+                                            <div class="mainview2__more--document d-flex justify-content-around align-items-center">
+                                                <div class="mainview2__more--document-header">
+                                                    <i class="fas fa-file-alt"></i>
+                                                </div>
+                                                <div class="mainview2__more--document-content">
+                                                    <h4>Resume.pdf</h4>
+                                                    <small>1.26 MB</small>
+                                                </div>
+                                                <div class="mainview2__more--document-icon">
+                                                    <i class="fas fa-cloud-download-alt"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="timeview timeview2">
+                <div class="timeview2__contact">
+                    <div class="timeview__contact--header d-flex justify-content-between align-items-center">
+                        <div class="timeview__contact--header-img">
+                            <img src="./img/people6.png" alt="">
+                        </div>
+                        <div class="timeview__contact--header-title">
+                            <h4>Jean Wade</h4>
+                            <small>Middle UI/UX Designer</small>
+                        </div>
+                    </div>
+                    <div class="timeview__contact--content">
+                        <p>Experienced UX/UI designer with a strong background in visual arts, marketing, communications and psychology</p>
+                    </div>
+                    <div class="timeview__contact--links d-flex justify-content-around align-items-center">
+                        <div class="timeview__contact--link ">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <div class="timeview__contact--link ">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="timeview__contact--link ">
+                            <i class="fas fa-comment-alt"></i>
+                        </div>
+                        <div class="timeview__contact--link ">
+                            <i class="fas fa-ellipsis-h"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeview2__experiences">
+                    <div class="timeview2__experiences--header">
+                        <h4>Experience</h4>
+                    </div>
+                    <div class="timeview2__experiences--lists">
+                        <div class="timeview2__experiences--list">
+                            <div class="timeview2__experience--header d-flex align-items-center">
+                                <img src="./img/google.png" alt="">
+                                <h4>Google</h4>
+                            </div>
+                            <div class="timeview2__experience--info d-flex justify-content-between align-items-center">
+                                <div class="timeview2__experience--info-time">
+                                    <small>Oct 2018 - Present</small>
+                                </div>
+                                <div class="timeview2__experience--info-place">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    <small>California</small>
+                                </div>
+                            </div>
+                            <div class="timeview2__experience--content">
+                                <h4>Lead UX Designer</h4>
+                                <small>Designed full features of Batmobile Autopilot.user flows, high fidelity mockups</small>
+                            </div>
+                        </div>
+                        <div class="timeview2__experiences--list">
+                            <div class="timeview2__experience--header d-flex align-items-center">
+                                <img src="./img/facebook .png" alt="">
+                                <h4>Facebook</h4>
+                            </div>
+                            <div class="timeview2__experience--info d-flex justify-content-between align-items-center">
+                                <div class="timeview2__experience--info-time">
+                                    <small>Oct 2018 - Present</small>
+                                </div>
+                                <div class="timeview2__experience--info-place">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    <small>California</small>
+                                </div>
+                            </div>
+                            <div class="timeview2__experience--content">
+                                <h4>Lead UX Designer</h4>
+                                <small>Designed full features of Batmobile Autopilot.user flows, high fidelity mockups</small>
+                            </div>
+                        </div>
+                        <div class="timeview2__experiences--list">
+                            <div class="timeview2__experience--header d-flex align-items-center">
+                                <img src="./img/sketch.png" alt="">
+                                <h4>Sketch</h4>
+                            </div>
+                            <div class="timeview2__experience--info d-flex justify-content-between align-items-center">
+                                <div class="timeview2__experience--info-time">
+                                    <small>Oct 2018 - Present</small>
+                                </div>
+                                <div class="timeview2__experience--info-place">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    <small>California</small>
+                                </div>
+                            </div>
+                            <div class="timeview2__experience--content">
+                                <h4>Lead UX Designer</h4>
+                                <small>Designed full features of Batmobile Autopilot.user flows, high fidelity mockups</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+          <div class="pageview pageview4"></div>
+          <div class="pageview pageview5"></div>
+          <div class="pageview pageview6"></div>
+          <div class="pageview pageview7"></div>
+          <div class="pageview pageview8"></div>
+        </div>
+    </section>
+
+
+
+    <!--jquery js-->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" ></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" ></script>
+    
+    <!--gsap js-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
+    <!--main js-->
+    <script src="./js/add.js"></script>
+</body>
+</html>
