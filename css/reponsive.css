@@ -119,6 +119,12 @@
         max-width: 97%;
         flex: 0 0 100%;
     }
+    .pageview {
+        width: 83%;
+    }
+    .navbar.d-flex.flex-column {
+        width: 16%;
+    }
 }
 
 
